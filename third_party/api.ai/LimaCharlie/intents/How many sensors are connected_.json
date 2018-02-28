@@ -1,0 +1,117 @@
+{
+  "id": "3caac9d0-3652-4066-96c0-f21297d73d63",
+  "name": "How many sensors are connected?",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "c5ce3d5c-5760-43c2-ae1e-4cba016ad3a2",
+      "data": [
+        {
+          "text": "Is there any "
+        },
+        {
+          "text": "mac",
+          "alias": "platform",
+          "meta": "@platform",
+          "userDefined": true
+        },
+        {
+          "text": " sensors online?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7322970a-eaed-451c-9ad7-0be4927b8251",
+      "data": [
+        {
+          "text": "Do you see any "
+        },
+        {
+          "text": "linux",
+          "alias": "platform",
+          "meta": "@platform",
+          "userDefined": true
+        },
+        {
+          "text": " sensors?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85353290-7d73-4fce-af6b-163bdbb3ca1e",
+      "data": [
+        {
+          "text": "How many "
+        },
+        {
+          "text": "windows",
+          "alias": "platform",
+          "meta": "@platform",
+          "userDefined": true
+        },
+        {
+          "text": " sensors do you see?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7b515a4-230c-4516-9bab-f2b44261103f",
+      "data": [
+        {
+          "text": "How many "
+        },
+        {
+          "text": "mac",
+          "alias": "platform",
+          "meta": "@platform",
+          "userDefined": true
+        },
+        {
+          "text": " sensors are connected?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e71944d-0dd0-4c0b-9c24-92c0acd3723d",
+      "data": [
+        {
+          "text": "How many sensors are connected?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "count_sensors",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@platform",
+          "name": "platform",
+          "value": "$platform"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can\u0027t seem to be able to reach the LimaCharlie cloud."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

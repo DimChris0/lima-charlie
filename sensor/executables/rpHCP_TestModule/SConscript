@@ -1,0 +1,19 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+env.AppendUnique( CPPPATH = '../../lib/yara/libyara/include' )
+
+profiles.DynamicLibrary(
+        'rpHCP_TestModule',
+        profiles.GitInfo(),
+        LIBS = 'm'
+        ).Target(
+            env,
+            Glob( '*.c' ),
+            compmap,
+            'rpHostCommonPlatformIFaceLib'
+            )
+
+
+# EOF

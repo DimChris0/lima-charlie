@@ -1,0 +1,46 @@
+{
+  "id": "557b80b9-ed7c-46db-8579-f7181050afee",
+  "name": "object_type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "FILE_PATH",
+      "synonyms": [
+        "file path",
+        "path",
+        "paths"
+      ]
+    },
+    {
+      "value": "PROCESS_NAME",
+      "synonyms": [
+        "process",
+        "process name",
+        "processes"
+      ]
+    },
+    {
+      "value": "MODULE_NAME",
+      "synonyms": [
+        "module",
+        "module name",
+        "modules"
+      ]
+    },
+    {
+      "value": "DOMAIN",
+      "synonyms": [
+        "domains"
+      ]
+    },
+    {
+      "value": "PORT",
+      "synonyms": [
+        "port",
+        "ports"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

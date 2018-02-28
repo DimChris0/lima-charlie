@@ -1,0 +1,17 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+env.AppendUnique( CPPPATH = '../mbedtls/mbedtls-2.1.2/include' )
+
+profiles.StaticLibrary(
+        'rpHostCommonPlatformLib',
+        profiles.ObfuscatedHeader(),
+        profiles.GitInfo(),
+        profiles.RpalModule(),
+        ).Target(
+            env,
+            Glob( '*.c' ),
+            compmap,
+            'cryptoLib', 'obfuscationLib', 'MemoryModule', 'z', 'rpcm', 'Os', 'networkLib', 'mbedtls', 'processLib'
+            )
+# EOF

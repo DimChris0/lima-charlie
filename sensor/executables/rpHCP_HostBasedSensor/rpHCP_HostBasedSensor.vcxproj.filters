@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="collectors.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="collector_0_exfil.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_1_process_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_2_dns_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_3_code_ident.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_4_network_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_5_hidden_module.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_6_module_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_7_file_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_8_network_summary.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_9_file_forensics.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_10_memory_forensics.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_11_os_forensics.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_12_profiler.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_13_exec_oob.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_15_process_hollowing.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_16_yara.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_17_os_trackers.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_18_doc_cache.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_19_volume_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_20_stateful_tracking.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="stateful_0_recon_burst.c">
+      <Filter>stateful_events</Filter>
+    </ClCompile>
+    <ClCompile Include="stateful_framework.c" />
+    <ClCompile Include="stateful_1_late_load.c">
+      <Filter>stateful_events</Filter>
+    </ClCompile>
+    <ClCompile Include="stateful_2_doc_exploit.c">
+      <Filter>stateful_events</Filter>
+    </ClCompile>
+    <ClCompile Include="stateful_helpers.c" />
+    <ClCompile Include="atoms.c" />
+    <ClCompile Include="collector_21_user_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_22_file_type_tracker.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+    <ClCompile Include="collector_14_deny_tree.c">
+      <Filter>collectors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\rpHostCommonPlatformLib\rTags.h" />
+    <ClInclude Include="collectors.h" />
+    <ClInclude Include="deployments.h" />
+    <ClInclude Include="keys.h" />
+    <ClInclude Include="stateful_events.h" />
+    <ClInclude Include="stateful_framework.h" />
+    <ClInclude Include="stateful_helpers.h" />
+    <ClInclude Include="atoms.h" />
+    <ClInclude Include="git_info.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="collectors">
+      <UniqueIdentifier>{a24daa9d-3ec6-4b22-b79f-4abda88f114f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stateful_events">
+      <UniqueIdentifier>{a6f28a9c-eea6-4937-84f7-4992ee492e3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+{
+  "id": "6faf073b-820c-41f8-8a8e-596f4633e5b1",
+  "name": "object_name",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "*.exe",
+      "synonyms": [
+        "*.exe"
+      ]
+    },
+    {
+      "value": "*.*",
+      "synonyms": [
+        "*.*"
+      ]
+    },
+    {
+      "value": "*.*.*.*",
+      "synonyms": [
+        "*.*.*.*"
+      ]
+    },
+    {
+      "value": "*.dll",
+      "synonyms": [
+        "*.dll"
+      ]
+    },
+    {
+      "value": "*.*.*",
+      "synonyms": [
+        "*.*.*"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": true
+}

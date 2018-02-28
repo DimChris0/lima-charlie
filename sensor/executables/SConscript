@@ -1,0 +1,16 @@
+Import( 'env' )
+Import( 'compmap' )
+
+for subdir in [ 'rpHostCommonPlatformExe',
+                'rpHCP_HostBasedSensor',
+                'rpHCP_KernelAcquisition',
+                'rpHCP_TestModule',
+                'memory_loader_simulator',
+                'standalone_yara_scanner' ]:
+    SConscript(
+            dirs = [ subdir ],
+            file = 'SConscript',
+            exports = dict( env = env.Clone(), compmap = compmap )
+            )
+
+# EOF

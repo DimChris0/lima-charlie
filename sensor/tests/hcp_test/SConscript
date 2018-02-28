@@ -1,0 +1,12 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+profiles.make_rpal_master( env )
+env.AppendUnique( CPPPATH = '../../lib/mbedtls/mbedtls-2.1.2/include' )
+profiles.Program(
+        'hcp_test',
+        profiles.RpalModule()
+        ).Target( env, 'main.c', compmap, 'cunit', 'rpal', 'cryptoLib', 'rpcm', 'rpHostCommonPlatformLib', 'mbedtls', 'processLib' )
+
+# EOF

@@ -1,0 +1,15 @@
+{
+  "id": "a232dd0b-35a8-4c6b-9f0d-1329693c92bf",
+  "name": "sensor_id",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "1.1.1.210",
+      "synonyms": [
+        "1.1.1.210"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "3aa73ed4-bfbb-4ece-8895-18587edc8240",
+  "name": "platform",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "windows",
+      "synonyms": [
+        "windows",
+        "win"
+      ]
+    },
+    {
+      "value": "osx",
+      "synonyms": [
+        "osx",
+        "macos",
+        "mac",
+        "macintosh",
+        "apple"
+      ]
+    },
+    {
+      "value": "linux",
+      "synonyms": [
+        "linux",
+        "nix"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

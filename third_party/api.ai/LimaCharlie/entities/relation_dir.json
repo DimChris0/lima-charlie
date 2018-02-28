@@ -1,0 +1,33 @@
+{
+  "id": "bb1825ec-24f5-40f2-978a-0f93cb97263f",
+  "name": "relation_dir",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "parent",
+      "synonyms": [
+        "parent",
+        "parents",
+        "accessed by",
+        "from",
+        "loaded by",
+        "loaded into"
+      ]
+    },
+    {
+      "value": "child",
+      "synonyms": [
+        "child",
+        "children",
+        "childs",
+        "accessing",
+        "to",
+        "loading",
+        "used by",
+        "does it use"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

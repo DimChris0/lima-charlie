@@ -1,0 +1,45 @@
+{
+  "id": "6f1dab1e-8619-4d7c-9188-bfa4a3729ef7",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "e5d43076-20cf-436d-94a3-5fd5cd6a8b1b",
+      "data": [
+        {
+          "text": "Can I talk to Lima Charlie?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c3d4a64-5c01-429c-8b28-d09b25d4c294",
+      "data": [
+        {
+          "text": "Hey Lima Charlie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "count_sensors",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Welcome to Lima Charlie, sorry but I can\u0027t reach the deployment."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

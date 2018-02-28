@@ -1,0 +1,20 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+env.AppendUnique( CPPPATH = '../../lib/yara/libyara/include' )
+
+profiles.make_rpal_master( env )
+profiles.Program(
+        'standalone_yara_scanner',
+        profiles.RpalModule()
+        ).Target(
+            env,
+            'main.c',
+            compmap,
+            'processLib', 
+            'Os',
+            'libyara',
+            )
+
+# EOF

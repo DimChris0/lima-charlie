@@ -1,0 +1,15 @@
+{
+  "id": "4e09911a-0248-40dd-861a-4a5ce11fe5ca",
+  "name": "hostname",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "maximembp",
+      "synonyms": [
+        "maximembp"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}

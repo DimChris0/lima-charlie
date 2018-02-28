@@ -1,0 +1,54 @@
+{
+  "id": "cfbed7d6-98c1-4b8f-b228-194ecc74b8a3",
+  "name": "Ok thanks.",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "47b94ee1-6555-4347-846c-bb31169c1dd7",
+      "data": [
+        {
+          "text": "Ok thanks."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77db4b4a-e80e-49c9-a7e1-c5ae9a281f83",
+      "data": [
+        {
+          "text": "Goodbye."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b247a2d7-03be-4828-9b56-bdada9d41e28",
+      "data": [
+        {
+          "text": "I\u0027m done."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No problem."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

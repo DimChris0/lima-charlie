@@ -1,0 +1,29 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+env.AppendUnique( CPPPATH = '../../lib/yara/libyara/include' )
+
+profiles.DynamicLibrary(
+        'rpHCP_HostBasedSensor',
+        profiles.ObfuscatedHeader(),
+        profiles.GitInfo(),
+        LIBS = 'm'
+        ).Target(
+            env,
+            Glob( '*.c' ),
+            compmap,
+            'rpHostCommonPlatformIFaceLib',
+            'processLib', 
+            'notificationsLib',
+            'cryptoLib',
+            'networkLib',
+            'Os',
+            'obfuscationLib',
+            'obsLib',
+            'libyara',
+            'kernelAcquisitionLib',
+            )
+
+
+# EOF

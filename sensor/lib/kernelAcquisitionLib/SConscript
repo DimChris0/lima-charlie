@@ -1,0 +1,7 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+profiles.StaticLibrary( 'kernelAcquisitionLib' ).Target( env, 'kernelAcquisitionLib.c', compmap, 'rpal' )
+
+# EOF

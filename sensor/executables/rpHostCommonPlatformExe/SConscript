@@ -1,0 +1,17 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+profiles.make_rpal_master( env )
+profiles.Program(
+        'rpHostCommonPlatformExe',
+        profiles.RpalModule(),
+        profiles.GitInfo()
+        ).Target(
+            env,
+            'main.c',
+            compmap,
+            'rpHostCommonPlatformLib'
+            )
+
+# EOF

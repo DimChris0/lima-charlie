@@ -1,0 +1,28 @@
+Import( 'env' )
+Import( 'compmap' )
+for subdir in [
+        'rpal',
+        'CUnit-2.1-2/CUnit',
+        'mbedtls',
+        'cryptoLib',
+        'obfuscationLib',
+        'MemoryModule',
+        'zlib',
+        'librpcm',
+        'libOs',
+        'networkLib',
+        'processLib',
+        'rpHostCommonPlatformLib',
+        'rpHostCommonPlatformIFaceLib',
+        'notificationsLib',
+        'obsLib',
+        'yara',
+        'kernelAcquisitionLib',
+        ]:
+    SConscript(
+            dirs = [ subdir ],
+            file = 'SConscript',
+            exports = dict( env = env.Clone(), compmap = compmap )
+            )
+
+# EOF

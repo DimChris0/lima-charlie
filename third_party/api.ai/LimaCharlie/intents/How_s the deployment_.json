@@ -1,0 +1,45 @@
+{
+  "id": "305aeff9-d4ce-49cd-9519-fd27eef934f3",
+  "name": "How\u0027s the deployment?",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "14088636-be13-46e5-a44b-ad1e497f1f34",
+      "data": [
+        {
+          "text": "How\u0027s the deployment?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b4ef68a-b0b8-480e-9f39-39343c8e2edf",
+      "data": [
+        {
+          "text": "What\u0027s the status?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "count_sensors",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Can\u0027t reach the deployment at the moment."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

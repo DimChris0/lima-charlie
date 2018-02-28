@@ -1,0 +1,384 @@
+{
+  "id": "63c05408-0453-4dc9-8d7b-b5b556f82569",
+  "name": "Object Info",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "7ff3020a-b11f-47f9-9f24-106dc17a451a",
+      "data": [
+        {
+          "text": "Which "
+        },
+        {
+          "text": "ports",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " are "
+        },
+        {
+          "text": "used by",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "notepad.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ef5f6aa-479a-4045-8c58-a4a23385bab2",
+      "data": [
+        {
+          "text": "Tell me the "
+        },
+        {
+          "text": "parents",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "paths",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "explorer.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1b198fa-da97-4c2c-b764-ee08b106050a",
+      "data": [
+        {
+          "text": "What are the "
+        },
+        {
+          "text": "paths",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "ntdll.dll",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83be5f87-9d19-4c9f-95bd-1a70d9ec7279",
+      "data": [
+        {
+          "text": "What "
+        },
+        {
+          "text": "process",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "wininet.dll",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "loaded into",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb6ad89d-88a7-4c25-a1b0-17c8b6daf8e3",
+      "data": [
+        {
+          "text": "Which "
+        },
+        {
+          "text": "modules",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "evil.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "loading",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62bc1e20-5bfa-48ef-8153-24ceed353d83",
+      "data": [
+        {
+          "text": "Which "
+        },
+        {
+          "text": "domains",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " are "
+        },
+        {
+          "text": "notepad.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": true
+        },
+        {
+          "text": " going "
+        },
+        {
+          "text": "to",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdeb8336-2ed4-4c14-8cce-f52d03a11ee0",
+      "data": [
+        {
+          "text": "Give me the "
+        },
+        {
+          "text": "children",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "domains",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " of the "
+        },
+        {
+          "text": "process",
+          "alias": "object_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "explorer.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63594ba4-42a2-4aa3-8fe5-cf9e947cd21e",
+      "data": [
+        {
+          "text": "Do you have "
+        },
+        {
+          "text": "parent",
+          "alias": "relation_dir",
+          "meta": "@relation_dir",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "processes",
+          "alias": "relation_type",
+          "meta": "@object_type",
+          "userDefined": true
+        },
+        {
+          "text": " for the "
+        },
+        {
+          "text": "calc.exe",
+          "alias": "object_name",
+          "meta": "@object_name",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "process",
+          "alias": "object_type",
+          "meta": "@object_type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "object_stat",
+      "affectedContexts": [
+        {
+          "name": "object",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sensor_id",
+          "name": "ctx_sensor_id",
+          "value": "#sensor.sensor_id"
+        },
+        {
+          "required": false,
+          "dataType": "@object_name",
+          "name": "object_name",
+          "value": "$object_name",
+          "isList": false
+        },
+        {
+          "dataType": "@object_type",
+          "name": "object_type",
+          "value": "$object_type",
+          "isList": false
+        },
+        {
+          "dataType": "@relation_dir",
+          "name": "relation_dir",
+          "value": "$relation_dir",
+          "isList": false
+        },
+        {
+          "dataType": "@object_name",
+          "name": "ctx_object_name",
+          "value": "#object.object_name"
+        },
+        {
+          "dataType": "@object_type",
+          "name": "ctx_object_type",
+          "value": "#object.object_type"
+        },
+        {
+          "dataType": "@relation_dir",
+          "name": "ctx_relation_dir",
+          "value": "#object.relation_dir"
+        },
+        {
+          "dataType": "@object_type",
+          "name": "ctx_parent_type",
+          "value": "#object.parent_type"
+        },
+        {
+          "dataType": "@object_type",
+          "name": "ctx_child_type",
+          "value": "#object.child_type"
+        },
+        {
+          "dataType": "@object_type",
+          "name": "relation_type",
+          "value": "$relation_type"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "fallbackIntent": false
+}

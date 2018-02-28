@@ -1,0 +1,6 @@
+[submodule "sensor/lib/yara"]
+	path = sensor/lib/yara
+	url = https://github.com/refractionPOINT/yara.git
+[submodule "cloud"]
+	path = cloud
+	url = https://github.com/refractionPOINT/lc_cloud.git

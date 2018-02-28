@@ -1,0 +1,18 @@
+Import( 'env' )
+Import( 'compmap' )
+import profiles
+
+profiles.make_rpal_master( env )
+profiles.Program(
+        'memory_loader_simulator',
+        profiles.RpalModule()
+        ).Target(
+            env,
+            'main.c',
+            compmap,
+            'processLib', 
+            'Os',
+            'MemoryModule',
+            )
+
+# EOF

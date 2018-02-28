@@ -1,0 +1,18 @@
+Import( 'env' )
+Import( 'compmap' )
+
+for subdir in [
+    'rpal_test',
+    'cryptoLib_test',
+    'hcp_test',
+    'libOs_test',
+    'obsLib_test',
+    'rpcm_test',
+    'processLib_test',
+    ]:
+    if env[ 'IS_DEBUG' ]:
+        SConscript( dirs = [ subdir ],
+                    file = 'SConscript', 
+                    exports = dict( env = env.Clone(), compmap = compmap ) )
+
+# EOF
